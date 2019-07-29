@@ -19,3 +19,7 @@ Route::get('/', function () {
 Route::get('/post', 'PostsController@index');
 
 Route::resource('posts', 'PostsController');
+
+Route::get('/contact', 'PostsController@contact');
+
+Route::get('/post/{id}/{name}', 'PostsController@show_post');
