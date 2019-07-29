@@ -25,6 +25,7 @@ class PostsController extends Controller
     public function create()
     {
         //
+        return "I am the creating method";
     }
 
     /**
